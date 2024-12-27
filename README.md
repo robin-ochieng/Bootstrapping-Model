@@ -100,7 +100,7 @@ install.packages(c(
    - Displays a file upload control and a data table preview.
 
   **Server (dataOverviewServer):**
-   - Validates columns, parses dates, and returns a reactive dataset to other modules.
+    - Validates columns, parses dates, and returns a reactive dataset to other modules.
 
 2. **Bootstrapping Module**
 
