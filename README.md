@@ -97,31 +97,31 @@ install.packages(c(
 1. **Data Overview Module**
 
    **UI (dataOverviewUI):**
-- Displays a file upload control and a data table preview.
+   - Displays a file upload control and a data table preview.
 
   **Server (dataOverviewServer):**
-- Validates columns, parses dates, and returns a reactive dataset to other modules.
+   - Validates columns, parses dates, and returns a reactive dataset to other modules.
 
 2. **Bootstrapping Module**
 
    **UI (bootstrappingUI):**
-- Allows users to select a statutory class, year range, and outlier-handling method (remove via quantiles or numeric thresholds).
-- Includes an action button to trigger the bootstrapping analysis.
+   - Allows users to select a statutory class, year range, and outlier-handling method (remove via quantiles or numeric thresholds).
+   - Includes an action button to trigger the bootstrapping analysis.
 
    **Server (bootstrappingServer):**
-- Applies filtering and outlier removal.
-- Builds a cumulative triangle with ChainLadder.
-- Runs BootChainLadder to generate IBNR estimates.
-- Computes risk margins at specified confidence levels.
-- Returns summary tables and plots.
+   - Applies filtering and outlier removal.
+   - Builds a cumulative triangle with ChainLadder.
+   - Runs BootChainLadder to generate IBNR estimates.
+   - Computes risk margins at specified confidence levels.
+   - Returns summary tables and plots.
 
 3. **Risk Margin Results Module**
 
    **UI (riskMarginResultsUI):**
-- Typically provides UI elements to present final risk margins or allow for downloading results.
+   - Typically provides UI elements to present final risk margins or allow for downloading results.
 
    **Server (riskMarginResultsServer):**
-- Receives the reactive risk margin data from bootstrapping, potentially displays or exports it.
+   - Receives the reactive risk margin data from bootstrapping, potentially displays or exports it.
 
 
 ## Contributing
