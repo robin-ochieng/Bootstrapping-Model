@@ -96,10 +96,10 @@ install.packages(c(
 
 1. **Data Overview Module**
 
-**UI (dataOverviewUI):**
+  **UI (dataOverviewUI):**
 - Displays a file upload control and a data table preview.
 
-**Server (dataOverviewServer):**
+  **Server (dataOverviewServer):**
 - Validates columns, parses dates, and returns a reactive dataset to other modules.
 
 2. **Bootstrapping Module**
