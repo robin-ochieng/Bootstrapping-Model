@@ -95,15 +95,18 @@ install.packages(c(
 ## Modules
 
 1. **Data Overview Module**
+
 **UI (dataOverviewUI):**
 - Displays a file upload control and a data table preview.
 **Server (dataOverviewServer):**
 - Validates columns, parses dates, and returns a reactive dataset to other modules.
 
 2. **Bootstrapping Module**
+
 **UI (bootstrappingUI):**
 - Allows users to select a statutory class, year range, and outlier-handling method (remove via quantiles or numeric thresholds).
 - Includes an action button to trigger the bootstrapping analysis.
+
 **Server (bootstrappingServer):**
 - Applies filtering and outlier removal.
 - Builds a cumulative triangle with ChainLadder.
@@ -111,7 +114,8 @@ install.packages(c(
 - Computes risk margins at specified confidence levels.
 - Returns summary tables and plots.
 
-3. **Risk Margin Results Module
+3. **Risk Margin Results Module**
+
 **UI (riskMarginResultsUI):**
 - Typically provides UI elements to present final risk margins or allow for downloading results.
 **Server (riskMarginResultsServer):**
