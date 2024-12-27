@@ -88,8 +88,8 @@ install.packages(c(
 2. **Navigate the Dashboard:**
 
    - **Data Overview:** Upload your claims dataset, check the preview table, and ensure fields/dates are parsed correctly.
-    - **Bootstrapping Results:** Configure your bootstrapping approach, select the appropriate statutory class, handle outliers, and generate your IBNR estimates.
-    - **Risk Margin Download:** Generate and/or download the risk margin results, as needed.
+   - **Bootstrapping Results:** Configure your bootstrapping approach, select the appropriate statutory class, handle outliers, and generate your IBNR estimates.
+   - **Risk Margin Download:** Generate and/or download the risk margin results, as needed.
 
 
 ## Modules
@@ -98,6 +98,7 @@ install.packages(c(
 
 **UI (dataOverviewUI):**
 - Displays a file upload control and a data table preview.
+
 **Server (dataOverviewServer):**
 - Validates columns, parses dates, and returns a reactive dataset to other modules.
 
@@ -118,6 +119,7 @@ install.packages(c(
 
 **UI (riskMarginResultsUI):**
 - Typically provides UI elements to present final risk margins or allow for downloading results.
+
 **Server (riskMarginResultsServer):**
 - Receives the reactive risk margin data from bootstrapping, potentially displays or exports it.
 
