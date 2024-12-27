@@ -116,3 +116,11 @@ install.packages(c(
 - Typically provides UI elements to present final risk margins or allow for downloading results.
 **Server (riskMarginResultsServer):**
 - Receives the reactive risk margin data from bootstrapping, potentially displays or exports it.
+
+
+## Contributing
+- **Fork** the repository.
+- **Create a branch** for your feature (git checkout -b feature/awesomeFeature).
+- **Commit** your changes (git commit -m 'Add awesomeFeature').
+- **Push** to your branch (git push origin feature/awesomeFeature).
+- **Open a Pull Request** and describe your updates.
